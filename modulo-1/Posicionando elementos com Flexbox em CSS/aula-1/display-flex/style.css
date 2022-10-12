@@ -1,0 +1,11 @@
+body{
+    display: flex;
+    max-width: 300px;
+    padding: 10px;
+    border: 1px solid black;
+}
+
+.item{
+    background-color: aquamarine;
+    margin: 5px;
+}
