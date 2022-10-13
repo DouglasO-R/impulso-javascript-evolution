@@ -1,0 +1,285 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+ul li a {
+    text-decoration: none;
+}
+
+div img {
+    display: block;
+    width: 100%;
+}
+
+.container {
+    display: flex;
+    max-width: 992px;
+    width: 100%;
+    margin: auto;
+    min-width: 320px;
+    padding: 10px 15px;
+}
+
+header {
+    background-color: #122a57;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    color: #fff;
+}
+
+.menu {
+    justify-content: space-between;
+}
+
+.list_items {
+    display: flex;
+    max-width: 260px;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.list_items li a {
+    color: #fff;
+}
+
+.presentation {
+    align-items: center;
+    justify-content: space-between;
+    height: 100vh;
+}
+
+.presentation_text {
+    min-height: 200px;
+}
+
+.presentation_text h1 {
+    color: #122a57;
+}
+
+.btn {
+    background-color: #122a57;
+    color: white;
+    text-align: center;
+    border-radius: 30px;
+    width: 220px;
+    height: 50px;
+    display: block;
+    line-height: 50px;
+    text-decoration: none;
+    margin: 10px 0 10px 0;
+}
+
+.about-us {
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.about-us h2 {
+    color: #122a57;
+    font-size: 32px;
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.about-us h2::before {
+    content: "";
+    height: 50px;
+    width: 5px;
+    margin-right: 5px;
+    background-color: #122a57;
+    position: relative;
+}
+
+.about-us p {
+    margin-bottom: 10px;
+    width: 90%;
+}
+
+.about-us img {
+    min-width: 420px;
+}
+
+.wraper {
+    background-color: #122a57;
+    width: 100%;
+}
+
+#services {
+    flex-direction: column;
+    padding: 50px 0 100px 0;
+}
+
+#services h2 {
+    color: white;
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+.services_list {
+    display: flex;
+    justify-content: space-between;
+}
+
+.service_list_item {
+    text-align: center;
+}
+
+.service_list_item p {
+    font-weight: 700;
+    font-size: 20px;
+    margin-top: 20px;
+    color: white;
+}
+
+.service_list_item a {
+    width: 120px;
+    background-color: white;
+    border-radius: 30px;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    padding: 10px;
+    color: #122a57;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+.service_list_item img {
+    width: 80%;
+    margin: auto;
+}
+
+.planos {
+    flex-direction: column;
+    min-height: 60vh;
+    padding-top: 50px;
+}
+
+.list_planos {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+
+.list_planos_item {
+    flex: 1;
+    border: 2px solid #122a57;
+    margin-right: 20px;
+    padding: 10px;
+    max-width: 240px;
+}
+
+.list_planos_item h3 {
+    font-size: 24px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.list_planos_item h3::after {
+    content: "";
+    background-color: #122a57;
+    width: 100%;
+    height: 3px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.list_planos_item ul {
+    padding: 10px 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.list_planos_item ul li {
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+
+.list_planos_item ul li::before {
+    content: "";
+    width: 10px;
+    height: 10px;
+    background-color: #122a57;
+    margin-right: 5px;
+}
+
+.list_planos_item .btn {
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+footer {
+    background-color: #122a57;
+    height: 70px;
+    display: flex;
+}
+
+.footer {
+    justify-content: space-between;
+    color: white;
+}
+
+
+/* mobile */
+@media screen and (max-width:992px) {
+    .container{
+        flex-direction: column;
+    }
+
+    .presentation{
+        flex-direction: column-reverse;
+    }
+
+    .presentation img{
+        width: 90%;
+    }
+
+
+    .presentation_text{
+        width: 100%;
+    }
+
+    .about-us{
+        flex-direction: column-reverse;
+    }
+
+    .about-us img{
+        min-width: 320px;
+        margin: auto;
+    }
+
+    .services_list{
+        flex-direction: column;
+    }
+
+    .service_list_item img{
+        width: 30%;
+        margin: auto;
+    }
+
+    .list_planos{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .list_planos_item{
+        max-width: 90%;
+        margin: auto;
+        width: 100%;
+        margin-top: 20px;
+    }
+}

@@ -9,11 +9,12 @@ https://web.dio.me/track/impulso-javascript-evolution
 - [GitHub]()
   
 ## Modulo 02
-- [Primeiros passos para desenvolvimento web](./modulo-2/)
-- [Introdução a Criação de Websites com HTML5 e CSS3](./modulo-2/)
-- [Posicionando elementos com Flexbox em CSS](./modulo-2/)
+- [Primeiros passos para desenvolvimento web]()
+- [Introdução a Criação de Websites com HTML5 e CSS3](./modulo-2/Introdu%C3%A7%C3%A3o%20a%20Cria%C3%A7%C3%A3o%20de%20Websites%20com%20HTML5%20e%20CSS3/)
+- [Posicionando elementos com Flexbox em CSS](./modulo-2/Posicionando%20elementos%20com%20Flexbox%20em%20CSS/)
 ### Desafio de Projeto
-- [Recriando a Página Inicial do Instagram](./modulo-2/)
+- [Recriando a Página Inicial do Instagram](https://github.com/DouglasO-R/instagram-login)
+- [Instagram login page](https://douglaso-r.github.io/instagram-login/)
 
 ## Modulo 03 
 - [Introdução ao JavaScript](./modulo-3/)
